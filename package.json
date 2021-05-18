@@ -1,0 +1,35 @@
+{
+  "name": "nerdie_dev_bot",
+  "version": "0.0.1",
+  "description": "Meu bot da twitch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1cadumagalhaes/nerdie_dev_bot.git"
+  },
+  "keywords": [
+    "twitch",
+    "irc",
+    "bot",
+    "node"
+  ],
+  "author": "1cadumagalhaes",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/1cadumagalhaes/nerdie_dev_bot/issues"
+  },
+  "homepage": "https://github.com/1cadumagalhaes/nerdie_dev_bot#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "tmi.js": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "nodemon": "^2.0.7"
+  }
+}
