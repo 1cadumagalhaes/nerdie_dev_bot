@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/1cadumagalhaes/nerdie_dev_bot#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "dotenv": "^9.0.2",
+    "node-fetch": "^2.6.1",
     "tmi.js": "^1.8.3"
   },
   "devDependencies": {
